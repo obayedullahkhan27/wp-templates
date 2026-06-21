@@ -1,0 +1,224 @@
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .elementor .e-flexbox-base {
+    padding: 0;
+  }
+  .course-net-hero {
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(
+      135deg,
+      #f8fbff 0%,
+      #eef8ff 25%,
+      #fdf2ff 65%,
+      #fff6ef 100%
+    );
+  }
+  .course-net-container {
+    max-width: 1400px;
+    margin: auto;
+  }
+  .course-net-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    background: #fff;
+    border-radius: 999px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .course-net-center {
+    text-align: center;
+  }
+  .course-net-title {
+    margin-top: 35px;
+    font-size: 72px;
+    line-height: 1.1;
+    font-weight: 800;
+    color: #0f172a;
+  }
+  .course-net-gradient {
+    background: linear-gradient(90deg, #4f46e5, #9333ea, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .course-net-desc {
+    max-width: 850px;
+    margin: 30px auto;
+    font-size: 24px;
+    line-height: 1.8;
+    color: #64748b;
+  }
+  .course-net-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .course-net-btn-primary,
+  .course-net-btn-secondary {
+    text-decoration: none;
+    padding: 18px 36px;
+    border-radius: 999px;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    transition: all 0.3s ease;
+  } /* Primary Button */
+  .course-net-btn-primary {
+    background: linear-gradient(90deg, #4f46e5, #9333ea);
+    color: white;
+    box-shadow: 0 15px 35px rgba(79, 70, 229, 0.35);
+  }
+  .course-net-btn-primary:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 45px rgba(79, 70, 229, 0.5);
+  } /* Secondary Button */
+  .course-net-btn-secondary {
+    background: white;
+    color: #111827;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  .course-net-btn-secondary:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  }
+  .course-net-cards {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+  }
+  .course-net-card {
+    background: white;
+    border-radius: 24px;
+    padding: 18px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+  }
+  .course-net-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: center;
+    border-radius: 18px;
+  }
+  .course-net-card h3 {
+    margin-top: 18px;
+    font-size: 24px;
+    color: #111827;
+    text-align: center;
+  }
+  .course-net-card p {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #64748b;
+    line-height: 1.7;
+  }
+  .course-net-trust {
+    margin-top: 45px;
+    text-align: center;
+    color: #64748b;
+    font-size: 18px;
+    font-weight: 600;
+  } /* Tablet */
+  @media (max-width: 1024px) {
+    .course-net-title {
+      font-size: 54px;
+    }
+    .course-net-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  } /* Mobile */
+  @media (max-width: 768px) {
+    .course-net-hero {
+      padding: 60px 16px;
+    }
+    .course-net-title {
+      font-size: 38px;
+      line-height: 1.2;
+    }
+    .course-net-desc {
+      font-size: 18px;
+    }
+    .course-net-badge {
+      font-size: 18px;
+      padding: 12px 22px;
+    }
+    .course-net-btn-primary,
+    .course-net-btn-secondary {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+    }
+    .course-net-cards {
+      grid-template-columns: 1fr;
+    }
+    .course-net-card h3 {
+      font-size: 24px;
+    }
+  }
+</style>
+<section class="course-net-hero">
+  <div class="course-net-container">
+    <div class="course-net-center">
+      <div class="course-net-badge">🎓 Course Net</div>
+      <h1 class="course-net-title">
+        আপনার ভবিষ্যৎ গড়ুন<br />
+        <span class="course-net-gradient"> সীমাহীন শেখার মাধ্যমে </span>
+      </h1>
+      <p class="course-net-desc">
+        প্রোগ্রামিং, সাইবার সিকিউরিটি, AI, ওয়েব ডেভেলপমেন্টসহ বাংলাদেশের টপ
+        রেটেড প্লাটফর্ম গুলোর সকল কোর্স এক্সেস করুন লাইফটাইম এক্সেস সহ।
+      </p>
+      <div class="course-net-buttons">
+        <a href="#" class="course-net-btn-primary"> 🚀 সকল কোর্স আনলক করুন </a>
+        <a href="#" class="course-net-btn-secondary">
+          ▶ সকল কোর্স দেখুন দেখুন
+        </a>
+      </div>
+    </div>
+    <div class="course-net-cards">
+      <div class="course-net-card">
+        <img
+          src="https://i.ibb.co.com/wZV0MVHC/Chat-GPT-Image-Jun-13-2026-11-14-02-PM.png"
+        />
+        <h3>১০০+ প্রিমিয়াম কোর্স</h3>
+        <p>প্রোগ্রামিং, AI, সাইবার সিকিউরিটি, ফ্রিল্যান্সিং ও আরও অনেক কিছু।</p>
+      </div>
+      <div class="course-net-card">
+        <img
+          src="https://i.ibb.co.com/45Dn5L9/Chat-GPT-Image-Jun-13-2026-11-01-13-PM.png"
+        />
+        <h3>ওয়েবসাইট অ্যাক্সেস</h3>
+        <p>আমাদের ওয়েবসাইটে লগইন করে যেকোনো সময় সহজেই কোর্স দেখতে পারবেন।</p>
+      </div>
+      <div class="course-net-card">
+        <img
+          src="https://i.ibb.co.com/0Pc0wwf/Chat-GPT-Image-Jun-13-2026-11-01-45-PM.png"
+        />
+        <h3>গুগল ড্রাইভ অ্যাক্সেস</h3>
+        <p>
+          ওয়েবসাইট অ্যাক্সেসের পাশাপাশি কোর্সের Google Drive লিংকও প্রদান করা
+          হবে।
+        </p>
+      </div>
+      <div class="course-net-card">
+        <img
+          src="https://i.ibb.co.com/mr5LqBJ1/Chat-GPT-Image-Jun-13-2026-11-11-43-PM.png"
+        />
+        <h3>লাইফটাইম সাপোর্ট</h3>
+        <p>কোর্স সম্পর্কিত যেকোনো সমস্যায় আজীবন সহায়তা ও সাপোর্ট পাবেন।</p>
+      </div>
+    </div>
+    <div class="course-net-trust">
+      ⭐⭐⭐⭐⭐ হাজারো শিক্ষার্থীর আস্থার প্ল্যাটফর্ম
+    </div>
+  </div>
+</section>
